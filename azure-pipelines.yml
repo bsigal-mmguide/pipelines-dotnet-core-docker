@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '3575282c-bb2f-4959-a976-12d6fa25071a'
   imageRepository: 'pipelinedockerimage'
   containerRegistry: 'procureitcontainersregistry.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
